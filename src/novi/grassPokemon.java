@@ -6,7 +6,7 @@ public class grassPokemon extends basePokemon{
     private String sound;
     private String contract;
 
-    public void firePokemon(String mowCertificate, String sowLicense, String sound, String contract){
+    public firePokemon(String mowCertificate, String sowLicense, String sound, String contract){
         this.mowCertificate = mowCertificate;
         this.sowLicense = sowLicense;
 
@@ -30,8 +30,8 @@ public class grassPokemon extends basePokemon{
         return sowLicense;
     }
 
-    public static void surf(String boatLicense){
-        System.out.println("I have a " + boatLicense + " boat license, so I am the best surfer");
+    public static void mow(String mowCertificate){
+        System.out.println("I have a " + mowCertificate + " boat license, so I am the best surfer");
     }
 
     public static void Sound(String sound){

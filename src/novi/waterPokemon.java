@@ -34,7 +34,7 @@ public class waterPokemon extends basePokemon{
         System.out.println("I have a " + boatLicense + " boat license, so I am the best surfer");
     }
 
-    public static void Sound(String sound){
+    public static void sound(String sound){
         System.out.println("I will always answer with " + sound);
     }
 }

@@ -3,6 +3,6 @@ package novi;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	basePokemon electricPokemon = new electricPokemon("picatu", "dsfasdf", "A", "B");
     }
 }
